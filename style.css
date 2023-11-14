@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+body {
+  background: url('image/background-color.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Poppins", sans-serif;
+}
+.background-color {
+  background-color: rgba(0, 6, 17, 0.2);
+}
+.navbar-nav {
+  display: flex;
+  align-items: center;
+}
+/* @media (max-width: 600px) {
+  .navbar-nav {
+    display: flex;
+    justify-content: start;
+    margin-left: 1rem;
+  }
+} */
+.btn-width {
+  width: 100px;
+}
+
+/*style for error messages*/
+.error_msg{
+  display: block;
+}
+/*end of error messages*/
+
+/*style for home section*/
+.custom-margin-top {
+  margin-top: 90px;
+  margin-bottom: 100px;
+}
+.custom-image-size {
+  width: 80%;
+}
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.floating-img {
+  animation: float 3s infinite;
+}
+/*end of home section*/
+
+/*style for about section*/
+.custom-border-about{
+    border: 2px solid #A401DD;
+    border-radius: 30px;
+}
+.custom-position{
+    display: flex;
+    justify-content: end;
+}
+.custom-margin-bottom-about{
+    margin-bottom: 100px;
+    padding-top: 130px;
+}
+/*end of about section*/
+
+/*style for service section*/
+.custom-margin-top-service{
+    margin-bottom: 100px;
+    padding-top: 130px;
+}
+/*end of service section*/
